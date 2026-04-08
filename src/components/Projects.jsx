@@ -17,17 +17,15 @@ const Projects = () => {
         {featuredProjects.map((project, index) => (
           <Reveal key={project.title} delay={index * 120}>
             {(() => {
-              const targetLink =
-                project.demo
-                  ? project.demo
-                  : project.github;
+              const targetLink = project.demo || project.github || '#';
+              const hasValidLink = Boolean(project.demo || project.github);
 
               return (
             <a
               className="project-link"
               href={targetLink}
-              target="_blank"
-              rel="noopener noreferrer"
+              target={hasValidLink ? '_blank' : undefined}
+              rel={hasValidLink ? 'noopener noreferrer' : undefined}
               aria-label={`Open ${project.title}`}
             >
               <article className="project-card">

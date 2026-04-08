@@ -102,6 +102,9 @@ stack: [
 "CSS",
 "OMDb API"
 ],
+
+github: "https://github.com/zekeriyamuhammedhusen",
+demo: LIVE_LINK_PLACEHOLDERS[3]
 }
 
 ];
