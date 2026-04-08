@@ -25,7 +25,7 @@ export const LIVE_LINK_PLACEHOLDERS = [
   "https://your-live-link-here.com/project-1",
   "https://your-live-link-here.com/project-2",
   "https://abugida-frontend-i304.onrender.com",
-  "https://your-live-link-here.com/project-4",
+  "https://zekeriyamuhammedhusen.github.io/Netflix-clone/",
   "https://your-live-link-here.com/project-5",
   "https://your-live-link-here.com/project-6",
   "https://your-live-link-here.com/project-7",
@@ -90,6 +90,18 @@ stack: [
 
 github: "https://github.com/zekeriyamuhammedhusen",
 demo: LIVE_LINK_PLACEHOLDERS[2]
+},
+{
+title: "Netflix Clone",
+type: "Web Application",
+
+summary:
+"Responsive Netflix clone built with React, featuring movie browsing.",
+stack: [
+"React",
+"CSS",
+"OMDb API"
+],
 }
 
 ];
