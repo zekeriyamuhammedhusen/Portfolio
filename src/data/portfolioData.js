@@ -20,12 +20,6 @@ export const socialLinks = [
   { name: 'Instagram', short: 'IG', href: '' },
 ];
 
-export const stats = [
-  { value: 'MERN', label: 'Stack' },
-  { value: 'JWT', label: 'Auth' },
-  { value: 'CRUD', label: 'Operations' },
-  { value: 'API', label: 'Development' },
-];
 
 export const LIVE_LINK_PLACEHOLDERS = [
   "https://your-live-link-here.com/project-1",
@@ -154,4 +148,4 @@ export const focusPanels = [
   },
 ];
 
-export const coreShowcase = ['MERN Stack', 'Authentication', 'CRUD Operations', 'API Development'];
+

@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import { portfolioMeta } from "../data/portfolioData";
 import Reveal from "./Reveal";
-import SocialLinks from "./SocialLinks";
+
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -69,8 +69,6 @@ const Contact = () => {
                 <strong>Location:</strong> {portfolioMeta.location}
               </p>
             </div>
-
-            <SocialLinks />
 
           </div>
         </Reveal>
