@@ -28,7 +28,10 @@ const Navbar = () => {
 
 
         {/* Navigation Links */}
-        <ul className={`site-links ${menuOpen ? "active" : ""}`}>
+        <ul
+          id="primary-navigation"
+          className={`site-links ${menuOpen ? "active" : ""}`}
+        >
 
           <li>
             <NavLink to="/" onClick={closeMenu}>
@@ -84,6 +87,8 @@ const Navbar = () => {
           className="menu-toggle"
           onClick={toggleMenu}
           aria-label="Toggle navigation"
+          aria-expanded={menuOpen}
+          aria-controls="primary-navigation"
         >
           ☰
         </button>

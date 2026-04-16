@@ -9,9 +9,6 @@ const About = () => {
       <Reveal>
         <div className="section-heading">
           <h2>About Me</h2>
-          <p className="section-intro">
-            Full Stack / MERN Developer based in Addis Ababa, Ethiopia.
-          </p>
         </div>
       </Reveal>
 

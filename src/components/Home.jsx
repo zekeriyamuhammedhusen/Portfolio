@@ -6,7 +6,7 @@ import zakImage from "../resource/zak.png";
 
 const Home = () => {
   return (
-    <section className="hero-section" id="home">
+    <section className="hero-section section-wrap" id="home">
       <div className="hero-container">
 
         <Reveal>

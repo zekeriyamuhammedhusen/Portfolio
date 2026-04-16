@@ -214,6 +214,10 @@ a {
   align-items: center;
 }
 
+.hero-section .hero-container {
+  width: 100%;
+}
+
 .hero-left,
 .about-description,
 .about-card,
@@ -440,6 +444,7 @@ a {
   display: block;
   color: inherit;
   text-decoration: none;
+  min-width: 0;
 }
 
 .project-link .project-card {
@@ -482,6 +487,8 @@ a {
   border: 1px solid rgba(94, 234, 212, 0.18);
   color: #ccfbf1;
   font-weight: 600;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .skills-container {
@@ -626,6 +633,10 @@ a {
   height: 1.15rem;
 }
 
+.contact-form .btn-primary {
+  width: fit-content;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -656,8 +667,22 @@ a {
   .site-links {
     display: none;
     grid-column: 1 / -1;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
     justify-content: flex-start;
+    gap: 0.4rem;
     padding-top: 0.75rem;
+  }
+
+  .site-links li {
+    width: 100%;
+  }
+
+  .site-links a {
+    display: block;
+    width: 100%;
+    padding: 0.65rem 0.8rem;
   }
 
   .site-links.active {
@@ -665,10 +690,19 @@ a {
   }
 
   .hero-container,
-  .project-grid,
-  .skills-container,
   .contact-container,
   .about-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 860px) {
+  .project-grid,
+  .skills-container {
     grid-template-columns: 1fr;
   }
 }
@@ -698,6 +732,14 @@ a {
     padding: 1.4rem;
   }
 
+  .hero-name {
+    font-size: clamp(1.65rem, 8vw, 2.2rem);
+  }
+
+  .hero-role {
+    font-size: 1.02rem;
+  }
+
   .hero-right {
     margin-top: 0.4rem;
   }
@@ -716,5 +758,24 @@ a {
   .footer-inner {
     justify-content: center;
     text-align: center;
+  }
+
+  .contact-form .btn-primary,
+  .hero-buttons .btn-primary,
+  .hero-buttons .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-footer {
+    position: static;
+    border-radius: 0;
+  }
+
+  .app-main {
+    padding-bottom: 2rem;
   }
 }
