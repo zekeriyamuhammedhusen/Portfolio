@@ -22,7 +22,7 @@ export const socialLinks = [
 
 
 export const LIVE_LINK_PLACEHOLDERS = [
-  "https://your-live-link-here.com/project-1",
+  "https://stock-frontend-6up1.onrender.com",
   "https://crud-frontend-l7bz.onrender.com/",
   "https://abugida-frontend-i304.onrender.com",
   "https://zekeriyamuhammedhusen.github.io/Netflix-clone/",
