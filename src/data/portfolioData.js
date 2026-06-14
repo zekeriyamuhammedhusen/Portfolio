@@ -1,13 +1,13 @@
 export const portfolioMeta = {
   name: 'Zekeriya Muhammedhusen',
-  role: 'Junior Full Stack / MERN Developer',
+  role: ' MERN Stack Developer',
   location: 'Addis Ababa, Ethiopia',
   email: 'zakm01163@gmail.com',
   phone: '+251964020334',
   github: 'https://github.com/zekeriyamuhammedhusen',
   linkedin: 'https://www.linkedin.com/in/zekeriyam/',
-  facebook: '',
-  instagram: '',
+  facebook: 'https://web.facebook.com/zakariya.m.husen',
+  instagram: 'https://www.instagram.com/zakiman_mu/',
   summary:
     'Computer Science graduate from Wollo University with strong knowledge of full stack web development using the MERN stack. Skilled in building RESTful APIs, responsive user interfaces, and database-driven web applications. Passionate about developing scalable software solutions and seeking a Junior Full Stack / MERN Developer role.',
   education: "Bachelor's Degree in Computer Science - Wollo University",
@@ -16,8 +16,8 @@ export const portfolioMeta = {
 export const socialLinks = [
   { name: 'GitHub', short: 'GH', href: portfolioMeta.github },
   { name: 'LinkedIn', short: 'IN', href: portfolioMeta.linkedin },
-  { name: 'Facebook', short: 'FB', href: '' },
-  { name: 'Instagram', short: 'IG', href: '' },
+  { name: 'Facebook', short: 'FB', href: portfolioMeta.facebook },
+  { name: 'Instagram', short: 'IG', href: portfolioMeta.instagram },
 ];
 
 
