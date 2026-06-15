@@ -24,9 +24,19 @@ const Home = () => {
               📍 {portfolioMeta.location}
             </p>
 
-            <p className="hero-summary">
-              {portfolioMeta.summary}
-            </p>
+            
+        <Reveal delay={120}>
+          <div className="hero-right">
+            <div className="hero-image-frame">
+              <span className="hero-image-glow" aria-hidden="true" />
+              <img
+                src={zakImage}
+                alt={portfolioMeta.name}
+                className="hero-photo"
+              />
+            </div>
+          </div>
+        </Reveal>
 
             <div className="hero-buttons">
               <Link to="/projects" className="btn-primary">
@@ -41,18 +51,6 @@ const Home = () => {
           </div>
         </Reveal>
 
-        <Reveal delay={120}>
-          <div className="hero-right">
-            <div className="hero-image-frame">
-              <span className="hero-image-glow" aria-hidden="true" />
-              <img
-                src={zakImage}
-                alt={portfolioMeta.name}
-                className="hero-photo"
-              />
-            </div>
-          </div>
-        </Reveal>
       </div>
     </section>
   );
