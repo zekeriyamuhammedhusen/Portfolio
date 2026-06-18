@@ -9,7 +9,7 @@ export const portfolioMeta = {
   facebook: 'https://web.facebook.com/zakariya.m.husen',
   instagram: 'https://www.instagram.com/zakiman_mu/',
   summary:
-    'Computer Science graduate from Wollo University with strong knowledge of full stack web development using the MERN stack. Skilled in building RESTful APIs, responsive user interfaces, and database-driven web applications. Passionate about developing scalable software solutions and seeking a Junior Full Stack / MERN Developer role.',
+    'Full Stack Developer specializing in the MERN stack. I build high-performance RESTful APIs, responsive user interfaces, and scalable database-driven web applications.',
   education: "Bachelor's Degree in Computer Science - Wollo University",
 };
 
@@ -113,6 +113,7 @@ export const skills = {
 
   Frontend: [
     "React.js",
+    "Next.js",
     "JavaScript",
     "HTML",
     "CSS",
@@ -123,10 +124,17 @@ export const skills = {
   Backend: [
     "Node.js",
     "Express.js",
-    "MongoDB",
-    "Mongoose",
+    "NestJS",
+    "PHP",
     "REST APIs",
     "API Integration"
+  ],
+
+  Databases: [
+    "MongoDB",
+    "PostgreSQL",
+    "Mongoose",
+    "SQL / NoSQL"
   ],
 
   Tools: [
@@ -147,19 +155,19 @@ export const skills = {
 
 export const focusPanels = [
   {
-    title: 'Current Focus',
-    value: 'Junior Full Stack / MERN Role',
-    note: 'MERN stack, authentication, CRUD operations, API development',
+    title: 'Development Focus',
+    value: 'Full-Stack Systems',
+    note: 'Building secure, database-driven web applications using MongoDB, Express, React, and Node.js.',
   },
   {
-    title: 'Content Mode',
-    value: 'Data Driven',
-    note: 'Content controlled from one data source',
+    title: 'Backend Engineering',
+    value: 'RESTful Architecture',
+    note: 'Designing robust API endpoints, secure JWT authentication schemes, and structured Mongoose schemas.',
   },
   {
-    title: 'Delivery Goal',
-    value: 'Job Application Ready',
-    note: 'Technical focus with direct requirement mapping',
+    title: 'Frontend Quality',
+    value: 'Modern Fluid UI',
+    note: 'Creating highly interactive interfaces with optimized load times, responsiveness, and premium styling.',
   },
 ];
 
